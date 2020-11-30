@@ -1,36 +1,58 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+          integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <title>Visualizador de GET y POST</title>
+    <style>
+        .footer {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            height: 60px;
+            line-height: 60px;
+            background-color: #eeeeee;
+        }
+    </style>
 </head>
 <body>
 
-<div class="container">
+<main role="main" class="container">
+    <h1 class="mt-3 text-bold">Visualizador de GET y POST</h1>
+    <hr>
     <div class="row mt-3">
         <div class="col-12 my-auto">
-            <h1>$_GET</h1>
+            <h2>$_GET</h2>
         </div>
-        <div class="col-12 py-3 my-1 bg-dark">
-            <code class="text-light"><?php print_r($_GET); ?></code>
+        <div class="col-12 py-3 my-1 bg-dark rounded">
+            <pre class="text-light m-0 p-0"><?php print_r($_GET); ?></pre>
         </div>
     </div>
     <div class="row mt-3">
         <div class="col-12 my-auto">
-            <h1>$_POST</h1>
+            <h2>$_POST</h2>
         </div>
-        <div class="col-12 py-3 my-1 bg-dark">
-            <code class="text-light"><?php print_r($_POST); ?></code>
+        <div class="col-12 py-3 my-1 bg-dark rounded">
+            <pre class="text-light m-0 p-0"><?php print_r($_POST); ?></pre>
         </div>
     </div>
-</div>
+    <div>
+    </div>
+</main>
+
+<footer class="footer">
+    <div class="container">
+        <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">
+            <img alt="Licencia de Creative Commons" style="border-width:0"
+                 src="https://i.creativecommons.org/l/by/4.0/88x31.png"/>
+        </a>
+        <span class="text-muted ml-2">Esta web está bajo <a rel="license"
+                                                            target="_blank"
+                                                            href="http://creativecommons.org/licenses/by/4.0/">licencia CC BY 4.0</a>.</span>
+    </div>
+</footer>
 
 </body>
 </html>
