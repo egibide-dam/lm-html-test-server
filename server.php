@@ -55,7 +55,7 @@
     <div class="container text-center">
         <a rel="license" href="https://creativecommons.org/licenses/by/4.0/deed.es_ES">
             <img alt="Licencia de Creative Commons" style="border-width:0"
-                 src="https://i.creativecommons.org/l/by/4.0/88x31.png"/>
+                 src="by.svg"/>
         </a>
         <small class="text-muted ml-2">Esta web está bajo <a rel="license"
                                                              target="_blank"
