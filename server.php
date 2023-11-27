@@ -53,9 +53,8 @@
 <!-- REF: https://startbootstrap.com/snippets/sticky-footer-flexbox -->
 <footer id="sticky-footer" class="mt-5 py-4 bg-light">
     <div class="container text-center">
-        <a rel="license" href="https://creativecommons.org/licenses/by/4.0/deed.es_ES">
-            <img alt="Licencia de Creative Commons" style="border-width:0"
-                 src="by.svg"/></a>
+        <a rel="license" href="https://creativecommons.org/licenses/by/4.0/deed.es_ES" target="_blank">
+            <img alt="Licencia de Creative Commons" class="border-0" src="by.svg"/></a>
         <small class="text-muted ms-2">Esta web está bajo <a rel="license"
                                                              target="_blank"
                                                              href="https://creativecommons.org/licenses/by/4.0/deed.es_ES">licencia
