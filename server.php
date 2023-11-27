@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
-          integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link href="bootstrap/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN">
     <title>Visualizador de peticiones HTTP</title>
     <style>
         html,
@@ -55,14 +55,15 @@
     <div class="container text-center">
         <a rel="license" href="https://creativecommons.org/licenses/by/4.0/deed.es_ES">
             <img alt="Licencia de Creative Commons" style="border-width:0"
-                 src="by.svg"/>
-        </a>
-        <small class="text-muted ml-2">Esta web está bajo <a rel="license"
+                 src="by.svg"/></a>
+        <small class="text-muted ms-2">Esta web está bajo <a rel="license"
                                                              target="_blank"
                                                              href="https://creativecommons.org/licenses/by/4.0/deed.es_ES">licencia
                 CC BY 4.0</a>.</small>
     </div>
 </footer>
 
+<script src="bootstrap/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"></script>
 </body>
 </html>
